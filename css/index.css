@@ -120,11 +120,18 @@ section h2 {
   height: 30px;
 }
 
+section h4 {
+  text-emphasis: none;
+}
 section ul {
   line-height: 22px;
   list-style: none;
   padding-top: 2px;
   padding-bottom: 5px;
+}
+
+section ul li {
+    margin-bottom: 4px;
 }
 
 section ul a {
@@ -218,4 +225,8 @@ a.more:hover .arrow {
   height: 70vh;
   max-width: 640px;
   max-height: 536px;
+}
+
+#credits ul li{
+  font-size: 14px;
 }
